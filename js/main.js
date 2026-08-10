@@ -26,11 +26,11 @@
   new Tabs('.tab-btn', '.tab-content');
 
 
-  // document.querySelectorAll('.work-toggle').forEach(btn => {
-  //   btn.addEventListener('click', () => {
-  //     btn.classList.toggle('active');
-  //   });
-  // });
+  document.querySelectorAll('.work-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+    });
+  });
 
 
 }
