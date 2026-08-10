@@ -90,17 +90,17 @@ main {
 }
 
 /* 2カラムで中央に配置 */
-.works-section {
+/* .works-section {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin: 40px auto;
   max-width: 1000px;
-}
+} */
 
 /* カードの見た目 */
 .work-card {
-  width: 45%;
+  width: 60%;
 }
 
 /* ボタン（実績タイトル） */
@@ -117,7 +117,7 @@ main {
 
 /* 中身（最初は非表示） */
 .work-content {
-  display: none;
+  display: block;
   margin-top: 10px;
   padding: 15px;
   border: 1px solid #ddd;
@@ -125,9 +125,9 @@ main {
 }
 
 /* ボタンが active のときに開く */
-.work-toggle.active + .work-content {
+/* .work-toggle.active + .work-content {
   display: block;
-}
+} */
 
 /* 画像の見た目 */
 .work-content img {
@@ -146,8 +146,8 @@ main {
   color: #fff;
   background:rgba(69, 11, 19, 0.884);
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   text-align: left;
 }
 
