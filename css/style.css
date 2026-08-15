@@ -63,7 +63,7 @@ main {
 .tab-content.active {
   display: block;
   margin: 24px auto;
-  width: 480px;
+  width: 420px;
   text-align: left;
 }
 
@@ -123,6 +123,7 @@ main {
   bottom: 20px;
   right: 20px;
   text-align: left;
+  z-index: 1;
 }
 
 h2 {
