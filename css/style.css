@@ -63,7 +63,7 @@ main {
 .tab-content.active {
   display: block;
   margin: 24px auto;
-  width: 420px;
+  width: 380px;
   text-align: left;
 }
 
